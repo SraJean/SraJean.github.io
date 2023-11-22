@@ -4,8 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 10px;
+        }
+
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .about-section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .research-gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .research-project {
+            width: 30%;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .research-project img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.5s;
+        }
+
+        .research-project:hover img {
+            transform: scale(1.1);
+        }
+
+        .project-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .research-project:hover .project-title {
+            opacity: 1;
+        }
+
+        .social-preview {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+
+<header>
+    <h1>Your Name</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#cv">CV</a>
+</nav>
+
+<div class="container">
+
+    <!-- About Page -->
+    <section id="about">
+        <div class="about-section">
+            <h2>About Me</h2>
+            <p>Text for your about section goes here.</p>
+        </div>
+
+        <!-- Research Gallery -->
+        <h2>Research Projects</h2>
+        <div class="research-gallery">
+            <div class="research-project">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="project-title">Project 1</div>
+            </div>
+            <div class="research-project">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="project-title">Project 2</div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+
+        <!-- Social Media Preview -->
+        <div class="social-preview">
+            <h2>Twitter Preview</h2>
+	    <a class="twitter-timeline" data-lang="en" data-height="500" data-theme="dark" href="https://twitter.com/Sara_JeanR?ref_src=twsrc%5Etfw">Tweets by Sara_JeanR</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            
+	    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <h2>Instagram Preview</h2>
+            <!-- Add code for Instagram preview -->
+        </div>
+    </section>
+
+    <!-- Research Page -->
+    <section id="research">
+        <h2>Research Subpage</h2>
+        <div class="research-gallery">
+            <!-- Add research projects as needed -->
+        </div>
+    </section>
+
+    <!-- CV Page -->
+    <section id="cv">
+        <h2>CV Subpage</h2>
+        <!-- Add code to link your PDF CV -->
+    </section>
+
+</div>
+
+<footer>
+    <p>Contact Information: Your Email | LinkedIn | Twitter</p>
+</footer>
+
 </body>
 </html>
