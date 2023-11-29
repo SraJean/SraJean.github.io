@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #7c8081;
+		color: #b2d8d8;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -1943,21 +1943,21 @@ input, select, textarea {
 					background: #7fb7d2;
 				}
 
-			.icon.circle.fa-facebook-f {
+			.icon.circle.fa-envelope {
 				background: #7490c3;
 				color: #fff;
 			}
 
-				.icon.circle.fa-facebook-f:hover {
+				.icon.circle.fa-envelope:hover {
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus-g {
+			.icon.circle.fa-linkedin {
 				background: #db6b67;
 				color: #fff;
 			}
 
-				.icon.circle.fa-google-plus-g:hover {
+				.icon.circle.fa-linkedin:hover {
 					background: #df7b77;
 				}
 
@@ -2248,12 +2248,12 @@ input, select, textarea {
 				}
 
 		.wrapper.style3 {
-			background: #fff;
+			background: #000000;
 			color: inherit;
 		}
 
 		.wrapper.style4 {
-			background: #fff;
+			background: #000000;
 			color: inherit;
 			padding: 4em;
 		}
@@ -2301,7 +2301,7 @@ input, select, textarea {
 	}
 
 	#header {
-		background: #fff;
+		background: #000000;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
@@ -2432,7 +2432,7 @@ input, select, textarea {
 	.dropotron {
 		list-style: none;
 		padding-left: 0;
-		background: #fff;
+		background: #000000;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		line-height: 2.25em;
 		min-width: 13em;
@@ -2641,7 +2641,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #E8EEF4;
+		background: #000000;
 		color: #7c8081;
 		padding: 5em 5em 10em 5em;
 		text-align: center;
